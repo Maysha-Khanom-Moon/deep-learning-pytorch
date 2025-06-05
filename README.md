@@ -3,11 +3,14 @@
 
 - DL --> ML --> AL
 
+<br>
+
 ![traditional programming vs ml algorithms](images/traditional-programming__ml-algorithm.png)
 
 
 Rule 1 of Google's Machine Learning Handbook:
 > "If you can build a <b>simple rule-based</b> system that doesn't require machine learning, do that."
+
 
 #### What deep learning is good for?
 - Tasks with too many rules for humans to write: Deep learning handles complex patterns where manual rules break down. Example: Speech recognition, image classification.
@@ -25,3 +28,10 @@ Rule 1 of Google's Machine Learning Handbook:
 - When mistakes are not allowed: Deep learning models can be unpredictable. If errors are critical (like in medical diagnosis or safety systems), avoid them.
 
 - When you have limited data: Deep learning needs a lot of training data. With small datasets, results are usually poor.
+
+#### ML vs DL
+- ML for structured (tabular) data
+- DL for unstructured data
+
+- ML: random forest, gradient boosted models, naive bayes, nearest neighbor, support vector machine, etc.
+- DL: neural networks, fully connected neural network, convolutional neural network, recurrent neural network, transformer, etc. 
