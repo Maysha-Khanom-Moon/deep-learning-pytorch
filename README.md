@@ -10,13 +10,18 @@ Rule 1 of Google's Machine Learning Handbook:
 > "If you can build a <b>simple rule-based</b> system that doesn't require machine learning, do that."
 
 #### What deep learning is good for?
-- Problems with long lists of rules - when the traditional approach fails, machine learning/ deep learning may help.
-- Continually changing environments - deep learning adapt (learn) to new scenarios.
-- Discovering insights within large collection of data - can you imaging trying to hand-craft rules for what 101 different kinds of food look like?
+- Tasks with too many rules for humans to write: Deep learning handles complex patterns where manual rules break down. Example: Speech recognition, image classification.
+
+- Environments that change over time: Deep learning models can keep learning and adapt as new data comes in.
+
+- Finding patterns in huge datasets: When data is large and messy (like millions of images or texts), deep learning can uncover relationships that humans would miss.
 
 
 #### What DL is not good for? (typically)
-- When you need explain-ability - the patterns learned by a deep learning model are typically uninterpretable by a human.
-- When the traditional approach is a better option - if you can accomplish what you need with a simple rule-based system.
-- When errors are unacceptable - since the outputs of deep learning model aren't always predictable.
-- When you don't have much data - deep learning models usually require a fairly large amount of data to produce great results.
+- When you need clear explanations: Deep learning models act like “black boxes.” You can’t easily see why they make a decision.
+
+- When simple methods work better: If a rule-based or basic machine learning approach solves your problem, deep learning may be overkill.
+
+- When mistakes are not allowed: Deep learning models can be unpredictable. If errors are critical (like in medical diagnosis or safety systems), avoid them.
+
+- When you have limited data: Deep learning needs a lot of training data. With small datasets, results are usually poor.
