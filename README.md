@@ -38,5 +38,10 @@ results are usually poor.
 - ML: random forest, gradient boosted models, naive bayes, nearest neighbor, support vector machine, etc.
 - DL: neural networks, fully connected neural network, convolutional neural network, recurrent neural network, transformer, etc.
 
+
 #### What is tensors?
 ![tensors](images/tensors.png)
+
+
+#### Workflow on dataset - pytorch
+![workflow](images/workflow-pytorch.png)
