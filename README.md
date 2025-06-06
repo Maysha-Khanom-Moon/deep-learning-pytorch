@@ -27,11 +27,16 @@ Rule 1 of Google's Machine Learning Handbook:
 
 - When mistakes are not allowed: Deep learning models can be unpredictable. If errors are critical (like in medical diagnosis or safety systems), avoid them.
 
-- When you have limited data: Deep learning needs a lot of training data. With small datasets, results are usually poor.
+- When you have limited data: Deep learning needs a lot of training data. With small datasets, 
+results are usually poor.
+
+<br>
 
 #### ML vs DL
 - ML for structured (tabular) data
 - DL for unstructured data
-
 - ML: random forest, gradient boosted models, naive bayes, nearest neighbor, support vector machine, etc.
-- DL: neural networks, fully connected neural network, convolutional neural network, recurrent neural network, transformer, etc. 
+- DL: neural networks, fully connected neural network, convolutional neural network, recurrent neural network, transformer, etc.
+
+#### What is tensors?
+![tensors](images/tensors.png)
